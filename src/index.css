@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 0.3em;
+  font-size:4.0em;
+}
+h6 {
+  margin-bottom: 0.5em;
+}
+
+button {
+  margin-top: 10px;
+  margin: 3px;
+}
+
+table{
+  margin-top: 2%;
+}
+
+button.btn{
+  color: black;
+}
+
+/* table.table {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+} */
+
+.table th {
+   text-align: center;
+   font-size: 1.0em;
+}
+.table td {
+  text-align: center;
+  font-size: 1.0em;
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    margin-bottom: 0.3em;
+    font-size:3.6em;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    margin-bottom: 0.3em;
+    font-size:3.0em;
+  }
+}
+
