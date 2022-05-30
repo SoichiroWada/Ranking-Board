@@ -79,7 +79,7 @@ function Table ({handleClick, sortBy, asc}) {
             </tr>
         )
     })
-
+	//adding blue triangle markers
 	return (
 		<div className="row">
 			<div className="col s12 m1 l2"></div>
@@ -99,7 +99,6 @@ function Table ({handleClick, sortBy, asc}) {
 			<div className="col s12 m1 l2"></div>
 		</div>
 	)
-
 }
 
 export default Table;
